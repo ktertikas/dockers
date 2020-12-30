@@ -15,9 +15,9 @@ dependencies:
   - torchvision
   - cudatoolkit
   - fvcore
-  - iopath
   - pytorch3d
   - pip:
+    - iopath
     - jupyter
     - git+https://github.com/facebookresearch/pytorch3d.git
     - scipy

@@ -28,4 +28,4 @@ ENV PATH /opt/conda/bin:$PATH
 
 COPY devel/environment_cpu.yml .
 
-RUN conda env update -f environment_cpu.yml
+RUN conda env update -f environment_cpu.yml $$ conda clean -afy
