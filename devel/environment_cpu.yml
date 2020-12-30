@@ -1,0 +1,20 @@
+name: base
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - Pillow
+  - trimesh
+  - pytorch
+  - torchvision
+  - cpuonly
+  - pip:
+    - jupyter
+    - git+https://github.com/facebookresearch/pytorch3d.git
+    - scipy
+    - jedi==0.17.2
